@@ -10,6 +10,12 @@ Try the deployed application here:
 
 https://ai-safety-equipment-detection.streamlit.app
 
+## 📸 Application Demo
+
+Below is the deployed AI Safety Equipment Detection System detecting hard hats using the custom-trained YOLO11 model.
+
+![AI Safety Equipment Detection Demo](screenshots/detection-demo.png)
+
 ## 🧠 Project Overview
 
 AI Safety Equipment Detection System is a computer vision application that uses a custom-trained YOLO11 model to detect workplace safety equipment in images.
