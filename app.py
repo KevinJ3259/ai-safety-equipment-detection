@@ -19,7 +19,7 @@ st.write(
 )
 
 # Load custom-trained model
-MODEL_PATH = "runs/detect/training/hardhat_vest_v2/weights/best.pt"
+MODEL_PATH = "models/best.pt"
 
 
 @st.cache_resource

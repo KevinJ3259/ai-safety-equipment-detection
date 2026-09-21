@@ -18,6 +18,9 @@ training/
 # Large model files
 *.pt
 
+# Keep the final trained model used by the Streamlit app
+!models/best.pt
+
 # Videos
 videos/
 *.mp4
