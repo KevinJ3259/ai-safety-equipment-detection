@@ -1,0 +1,40 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset files
+dataset/
+dataset_import/
+
+# YOLO generated output
+runs/
+output/
+training/
+
+# Large model files
+*.pt
+
+# Videos
+videos/
+*.mp4
+*.avi
+*.mov
+
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
