@@ -4,6 +4,67 @@ A computer vision application that detects safety equipment in images using a cu
 
 The project demonstrates an end-to-end machine learning workflow including dataset preparation, YOLO model training, evaluation, inference, and deployment through an interactive Streamlit application.
 
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+https://ai-safety-equipment-detection.streamlit.app
+
+## 🧠 Project Overview
+
+AI Safety Equipment Detection System is a computer vision application that uses a custom-trained YOLO11 model to detect workplace safety equipment in images.
+
+The model currently detects:
+
+- Hard hats
+- Safety vests
+
+Users can upload an image through a Streamlit web interface, run real-time object detection, view bounding boxes and confidence scores, and download the detection result.
+
+## 🛠️ Technologies
+
+- Python
+- Ultralytics YOLO11
+- PyTorch
+- OpenCV
+- Streamlit
+- Pillow
+- Computer Vision
+- Object Detection
+- Custom Model Training
+
+## ✨ Features
+
+- Custom-trained YOLO11 object detection model
+- Hard-hat detection
+- Safety-vest detection
+- Image upload and real-time inference
+- Adjustable confidence threshold
+- Bounding-box visualization
+- Confidence scores
+- Detection counts by class
+- Downloadable detection results
+- Streamlit web interface
+- Cloud deployment
+
+## 🤖 Machine Learning Workflow
+
+1. Prepared and organized the object-detection dataset
+2. Trained a YOLO11 model on labeled safety-equipment images
+3. Evaluated model performance
+4. Saved the best-performing model weights
+5. Integrated the trained model into a Python application
+6. Built an interactive Streamlit interface
+7. Deployed the trained model and application to the cloud
+
+## 📁 Model
+
+The deployed application uses the custom-trained model:
+
+`models/best.pt`
+
+This allows the application to perform inference using the model produced during training rather than relying solely on a pretrained general-purpose model.
+
 ## Features
 
 - Custom-trained YOLO11 object detection model
